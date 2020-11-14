@@ -6,8 +6,9 @@ import org.apache.commons.mail.SimpleEmail;
 
 import junit.framework.TestCase;
 
-public class TemplateTest extends TestCase{
-	public void simple {
+public class simepleTest extends TestCase {
+
+	public void simple() {
 		System.out.println("This is a message from the simple test.");
 		String result = "oneTwo";
 		assertEquals("oneTwo", result);
