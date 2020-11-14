@@ -8,8 +8,7 @@ import junit.framework.TestCase;
 
 public class simpleTest extends TestCase {
 
-	@Test
-	public void simple() {
+	public void testsimple() {
 		System.out.println("This is a message from the simple test.");
 		String result = "oneTwo";
 		assertEquals("oneTwo", result);
